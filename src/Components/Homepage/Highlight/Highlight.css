@@ -1,0 +1,67 @@
+section {
+  margin-top: 150px;
+}
+
+.highlight-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlight-head h1 {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 64pt;
+}
+
+.highlight-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.highlight-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-card {
+  height: 200px;
+  width: 200;
+  border-radius: 10px;
+}
+
+.img-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.highlight-card ul:first-of-type {
+  padding: 0px 15px 0 15px;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.highlight-card p {
+  font-size: 12pt;
+  margin: 25px 0 25px 0;
+}
+
+.highlight-card button {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.highlight-card button img {
+  margin-left: 20px;
+  height: 20px;
+}

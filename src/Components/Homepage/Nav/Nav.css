@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+nav ul a {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
