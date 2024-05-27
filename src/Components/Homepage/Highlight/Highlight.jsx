@@ -39,65 +39,55 @@ const Highlight = ({ title, btn, Order }) => {
             </ul>
           </div>
 
-          <ul className="img-card">
-            <li>
+          <div>
+            <div className="img-card">
               <img src={image2} alt="Green salad" />
-            </li>
+            </div>
+            <ul>
+              <li className="price-card">
+                <h4>Brochetta</h4>
+                <h5>$5.99</h5>
+              </li>
+              <li>
+                <p>
+                  jhkasjfhkajsfka f kdajhfkajfkja kfkasjhf kash fkhas fksha kf
+                  hkashfksah fkh akfha ksfjhkashf sh fkhas fksha kf hkashfksah
+                  fkh akfha ksfjhkas
+                </p>
+              </li>
 
-            <li>
-              <ul>
-                <li>
-                  <h4>Bruchetta</h4>
-                </li>
-                <li>
-                  <h4>$5.90</h4>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <p>
-                jhkasjfhkajsfka f kdajhfkajfkja kfkasjhf kash fkhas fksha kf
-                hkashfksah fkh akfha ksfjhkashf sh fkhas fksha kf hkashfksah fkh
-                akfha ksfjhkas{" "}
-              </p>
-            </li>
+              <li>
+                <button>
+                  {Order} <img src={del_image} alt="scooter image" />
+                </button>
+              </li>
+            </ul>
+          </div>
 
-            <li>
-              <button>
-                {Order} <img src={del_image} alt="scooter image" />
-              </button>
-            </li>
-          </ul>
-
-          <ul className="img-card">
-            <li>
+          <div>
+            <div className="img-card">
               <img src={image3} alt="Green salad" />
-            </li>
+            </div>
+            <ul>
+              <li className="price-card">
+                <h4>Lemon Desert</h4>
+                <h5>$5.00</h5>
+              </li>
+              <li>
+                <p>
+                  jhkasjfhkajsfka f kdajhfkajfkja kfkasjhf kash fkhas fksha kf
+                  hkashfksah fkh akfha ksfjhkashf sh fkhas fksha kf hkashfksah
+                  fkh akfha ksfjhkas
+                </p>
+              </li>
 
-            <li>
-              <ul>
-                <li>
-                  <h4>Lemon Dessert</h4>
-                </li>
-                <li>
-                  <h4>$5.90</h4>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <p>
-                jhkasjfhkajsfka f kdajhfkajfkja kfkasjhf kash fkhas fksha kf
-                hkashfksah fkh akfha ksfjhkashf sh fkhas fksha kf hkashfksah fkh
-                akfha ksfjhkas{" "}
-              </p>
-            </li>
-
-            <li>
-              <button>
-                {Order} <img src={del_image} alt="scooter image" />
-              </button>
-            </li>
-          </ul>
+              <li>
+                <button>
+                  {Order} <img src={del_image} alt="scooter image" />
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
