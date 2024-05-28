@@ -2,7 +2,7 @@ import { useDebugValue } from "react";
 import "./Header.css";
 import hero_img from "../../../icons_assets/restauranfood.jpg";
 
-const Header = ({ btn }) => {
+const Header = (props) => {
   return (
     <header>
       <div className="hero-box container">
@@ -14,7 +14,7 @@ const Header = ({ btn }) => {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes severd with modern twist
           </p>
-          <button className="btn">{btn}</button>
+          <button className="btn">{props.btn}</button>
         </div>
         <div className="hero-img">
           <img src={hero_img} alt="hero image" />

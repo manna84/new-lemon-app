@@ -4,13 +4,13 @@ import image2 from "../../../icons_assets/bruchetta.svg";
 import image3 from "../../../icons_assets/lemon dessert.jpg";
 import del_image from "../../../icons_assets/scooter-delivery.png";
 
-const Highlight = ({ title, btn, Order }) => {
+const Highlight = (props) => {
   return (
     <section>
       <div className="container">
         <div className="highlight-head">
-          <h1>{title}</h1>
-          <button className="btn">{btn}</button>
+          <h1>{props.title}</h1>
+          <button className="btn">{props.btn}</button>
         </div>
 
         <div className="highlight-card">
@@ -33,7 +33,7 @@ const Highlight = ({ title, btn, Order }) => {
 
               <li>
                 <button>
-                  {Order} <img src={del_image} alt="scooter image" />
+                  {props.Order} <img src={del_image} alt="scooter image" />
                 </button>
               </li>
             </ul>
@@ -58,7 +58,7 @@ const Highlight = ({ title, btn, Order }) => {
 
               <li>
                 <button>
-                  {Order} <img src={del_image} alt="scooter image" />
+                  {props.Order} <img src={del_image} alt="scooter image" />
                 </button>
               </li>
             </ul>
@@ -83,7 +83,7 @@ const Highlight = ({ title, btn, Order }) => {
 
               <li>
                 <button>
-                  {Order} <img src={del_image} alt="scooter image" />
+                  {props.Order} <img src={del_image} alt="scooter image" />
                 </button>
               </li>
             </ul>
