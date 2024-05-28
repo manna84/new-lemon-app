@@ -1,5 +1,6 @@
 section {
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .highlight-head {
@@ -35,7 +36,7 @@ section {
 }
 
 .highlight-card ul:first-of-type {
-  padding: 0px 15px 0 15px;
+  padding: 0px 15px 15px 15px;
 }
 
 .price-card {
