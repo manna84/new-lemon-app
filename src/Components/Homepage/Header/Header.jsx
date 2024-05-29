@@ -7,7 +7,7 @@ const Header = (props) => {
     <header>
       <div className="hero-box container">
         <div>
-          <h1>Little Lemon</h1>
+          <h1>{props.title}</h1>
           <h3>Chicago</h3>
 
           <p>

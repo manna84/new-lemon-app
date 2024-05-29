@@ -22,6 +22,10 @@
   background-color: rgb(220, 220, 191);
 } */
 
+section {
+  margin-top: 150px;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
