@@ -5,21 +5,35 @@ import Highlight from "./Components/Homepage/Highlight/Highlight";
 import Testimonials from "./Components/Homepage/Testimonials/Testimonials";
 import Card from "./Components/Homepage/Card/Card";
 import Footer from "./Components/Homepage/Footer/Footer";
-
+import About from "./Components/About/About";
+import { Route, Routes } from "react-router-dom";
 const App = () => {
   return (
-    <div>
-      <Nav />
-      <Header title="Little Lemon" btn="Reserve a Table" />
-      <Highlight
-        title="This weeks specials!"
-        btn="Online Menu"
-        Order="Order a delivery"
-      />
-      <Testimonials title="Testimonials" />
-      <Card title="Little Lemon" />
-      <Footer />
-    </div>
+    <></>
+    // <Routes>
+    //   <Route path="/">
+    //     <Nav />
+    //   </Route>
+    //   <Route path="/">
+    //     <Header title="Little Lemon" btn="Reserve a Table" />
+    //   </Route>
+    //   <Route>
+    //     <Highlight
+    //       title="This weeks specials!"
+    //       btn="Online Menu"
+    //       Order="Order a delivery"
+    //     />
+    //   </Route>
+    //   <Route>
+    //     <Testimonials title="Testimonials" />
+    //   </Route>
+    //   <Route>
+    //     <Card title="Little Lemon" />
+    //   </Route>
+    //   <Route path="/">
+    //     <Footer />
+    //   </Route>
+    // </Routes>
   );
 };
 

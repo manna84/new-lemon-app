@@ -1,5 +1,6 @@
 import "./Nav.css";
 import logo from "../../../icons_assets/Logo .svg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -10,14 +11,16 @@ const Nav = () => {
 
       <ul>
         <li>
-          <a href="">Home</a>
+          <Link to="/">Home</Link>
         </li>
 
         <li>
-          <a href="">About</a>
+          <Link to="/about" className="about">
+            About
+          </Link>
         </li>
         <li>
-          <a href="">Menu</a>
+          <Link to="/menu">Menu</Link>
         </li>
         <li>
           <a href="">Reservations</a>
