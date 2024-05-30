@@ -1,0 +1,41 @@
+.footer-section {
+  background-color: var(--dark-green);
+  padding: 100px 0;
+  margin-top: 250px;
+}
+
+.footer-box {
+  font-family: "Karla", sans-serif;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10%;
+}
+
+.media-box p {
+  font-size: 10pt;
+  margin: 15px 0;
+}
+
+.social-logo {
+  display: flex;
+}
+
+.footer-nav h5 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-nav ul li {
+  margin-top: 10px;
+}
+
+.footer-nav ul a {
+  color: #ffffff;
+}
+
+.footer-nav p {
+  font-size: 16px;
+}
